@@ -1,6 +1,6 @@
 #import pandas library
 import pandas as pd
-x = pd.read_csv('problem.csv')
+x = pd.read_csv('input.csv')
 #Separating strings for first and last name, and then taking the first part of each string .
 last = x.ln.str.split('\s+').str[0]
 first=  x.fn.str.split('\s+').str[0]
